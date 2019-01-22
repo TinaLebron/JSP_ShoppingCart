@@ -1,0 +1,67 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+$theme-colors:(
+    "primary": #f17917
+);
+
+$body-bg:#2c2c2c;
+
+.jumbotron{
+    background-color:#ffffff !important; 
+    border-top:3px solid rgb(219,219,219);
+}
+
+.center {
+ margin: auto;
+ width: 90%;
+ padding: 10%;
+}
+
+.card-body-hot-product{
+    color: #dfdbdb;
+}
+
+.bg-dark-hot{
+    background-color: #0a0a0a !important;
+}
+
+.line-behind-title-text h2{
+    color: #fe980f;
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    margin: 0 auto 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2.background {
+    position: relative;
+    z-index: 1;
+  
+    &:before {
+      border-top: 2px solid #dfdfdf;
+      content: "";
+      margin: 0 auto; /* this centers the line to the full width specified */
+      position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+      top: 50%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
+    }
+  
+    span {
+      /* to hide the lines from behind the text, you have to set the background color the same as the container */
+      background: #2c2c2c;
+      padding: 0 15px;
+    }
+  }
+
+
+  .none-bullet{
+      list-style: none;
+  }
+
+@import "node_modules/bootstrap/scss/bootstrap";
