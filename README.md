@@ -2,19 +2,65 @@
 
 目的: 我喜歡看NBA ，於是我想做購物車網頁有關NBA 相關商品
 
-功能: 
-登入畫面的log是依照NBA的Lebron-James設計的
-登入判別依照SQL資料庫裡的帳號密碼做比對，登入錯誤則會彈出提示視窗
-主畫面是運動商品主要以NBA主題為主
-主畫面,如果看到喜歡的商品按下按鈕，則主畫面的購物車(cart按鈕)會顯示客戶點擊的商品數量
-購物車(cart按鈕)點擊進去會看到客戶所選的商品，這部分是利用cookies，把客戶點的商品存在cookies裡
-Shopping Cart頁面的資料是透過cookies得到Vaule,再從資料庫取得商品的資料
+功能: <br/>
+• 登入畫面的log是依照NBA的Lebron-James設計的<br/>
+• 登入判別依照SQL資料庫裡的帳號密碼做比對，登入錯誤則會彈出提示視窗<br/>
+• 主畫面是運動商品主要以NBA主題為主<br/>
+• 主畫面,如果看到喜歡的商品按下按鈕，則主畫面的購物車(cart按鈕)會顯示客戶點擊的商品數量<br/>
+• 購物車(cart按鈕)點擊進去會看到客戶所選的商品，這部分是利用cookies，把客戶點的商品存在cookies裡<br/>
+• Shopping Cart頁面的資料是透過cookies得到Vaule,再從資料庫取得商品的資料
 
 
 
-未來展望: 
-購物車裡的商品，各別數量的總價錢尚未完成
-購物車裡的全部商品總數量加總尚未完成
-商品明細尚未完成
-訂單明細資料尚未儲存在資料庫
-客戶註冊尚未完成
+未來展望: <br/>
+• 購物車裡的商品，各別數量的總價錢尚未完成<br/>
+• 購物車裡的全部商品總數量加總尚未完成<br/>
+• 商品明細尚未完成<br/>
+• 訂單明細資料尚未儲存在資料庫<br/>
+• 客戶註冊尚未完成<br/>
+
+ <br/>
+ 
+
+<img src="https://github.com/TinaLebron/JSP_ShoppingCart/blob/master/picture/ShoppingCartLogin_1.PNG" width="650" />
+<br/>
+<img src="https://github.com/TinaLebron/JSP_ShoppingCart/blob/master/picture/ShoppingCartLogin_2.PNG" width="550" />
+
+| Option | Description |
+| ------ | ----------- |
+| reset (重置)   | All datas will be re-recorded. |
+| total money (總金額) | All current amounts. |
+| deposit (存錢)   | If you want to save money , you can write down.  |
+| historical record (歷史紀錄) | All datas was putin. |
+
+## Save Money 
+
+| Option | Description |
+| ------ | ----------- |
+| back   | return to previous page. |
+| save you money (存錢) | Amount deposited. |
+| ok    | The data will be written to the database.|
+
+## Reset
+
+
+<img src="https://github.com/TinaLebron/JSP_ShoppingCart/blob/master/picture/ShoppingCartHome_1.PNG" width="800" />
+<br/>
+<img src="https://github.com/TinaLebron/JSP_ShoppingCart/blob/master/picture/ShoppingCartHome_2.PNG" width="800" />
+
+| Option | Description |
+| ------ | ----------- |
+| alert dialog (警告對話框)  | if you want to re-record,you must pull yes boutton. |
+
+## Historical Record 
+
+&nbsp;
+<img src="https://github.com/TinaLebron/JSP_ShoppingCart/blob/master/picture/ShoppingCart_1.PNG" width="800" />
+
+| Option | Description |
+| ------ | ----------- |
+| historical record (歷史紀錄) | It can show the amount of money stored and the current time. |
+
+
+
+
