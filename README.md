@@ -44,5 +44,5 @@
 
 | Option | Description |
 | ------ | ----------- |
-|  Shopping Cart(購物車)  | Get the value from the cookie, and use the cookies to get the data on the SQL database.. |
+|  Shopping Cart(購物車)  | Get the value from the cookie, and use the cookies to get the data on the SQL database. |
 
