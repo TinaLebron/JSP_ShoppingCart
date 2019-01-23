@@ -21,17 +21,13 @@
 
  <br/>
  
-
 <img src="https://github.com/TinaLebron/JSP_ShoppingCart/blob/master/picture/ShoppingCartLogin_1.PNG" width="650" />
 <br/>
 <img src="https://github.com/TinaLebron/JSP_ShoppingCart/blob/master/picture/ShoppingCartLogin_2.PNG" width="550" />
 
 | Option | Description |
 | ------ | ----------- |
-| reset (重置)   | All datas will be re-recorded. |
-| total money (總金額) | All current amounts. |
-| deposit (存錢)   | If you want to save money , you can write down.  |
-| historical record (歷史紀錄) | All datas was putin. |
+| login (登入)   | If the account password is incorrect, a prompt window will pop up. |
 
 ## Save Money 
 
