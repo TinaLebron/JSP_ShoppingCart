@@ -10,16 +10,14 @@
 • 購物車(cart按鈕)點擊進去會看到客戶所選的商品，這部分是利用cookies，把客戶點的商品存在cookies裡<br/>
 • Shopping Cart頁面的資料是透過cookies得到Vaule,再從資料庫取得商品的資料
 
-
-
 未來展望: <br/>
 • 購物車裡的商品，各別數量的總價錢尚未完成<br/>
 • 購物車裡的全部商品總數量加總尚未完成<br/>
 • 商品明細尚未完成<br/>
 • 訂單明細資料尚未儲存在資料庫<br/>
 • 客戶註冊尚未完成<br/>
-
- <br/>
+ 
+ ## Login 
  
 <img src="https://github.com/TinaLebron/JSP_ShoppingCart/blob/master/picture/ShoppingCartLogin_1.PNG" width="650" />
 <br/>
@@ -29,16 +27,7 @@
 | ------ | ----------- |
 | login (登入)   | If the account password is incorrect, a prompt window will pop up. |
 
-## Save Money 
-
-| Option | Description |
-| ------ | ----------- |
-| back   | return to previous page. |
-| save you money (存錢) | Amount deposited. |
-| ok    | The data will be written to the database.|
-
-## Reset
-
+## Main
 
 <img src="https://github.com/TinaLebron/JSP_ShoppingCart/blob/master/picture/ShoppingCartHome_1.PNG" width="800" />
 <br/>
@@ -46,17 +35,14 @@
 
 | Option | Description |
 | ------ | ----------- |
-| alert dialog (警告對話框)  | if you want to re-record,you must pull yes boutton. |
+| p1-p6(Add to cart)(加入購物車)   | Add to the shopping cart, the shopping cart will display the number of items selected. |
+|  Product presentation(商品呈現) | Obtain product information from the SQL database. |
 
-## Historical Record 
+## Shopping Cart
 
-&nbsp;
 <img src="https://github.com/TinaLebron/JSP_ShoppingCart/blob/master/picture/ShoppingCart_1.PNG" width="800" />
 
 | Option | Description |
 | ------ | ----------- |
-| historical record (歷史紀錄) | It can show the amount of money stored and the current time. |
-
-
-
+|  Shopping Cart(購物車)  | Get the value from the cookie, and use the cookies to get the data on the SQL database.. |
 
