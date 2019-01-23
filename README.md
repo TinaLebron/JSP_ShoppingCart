@@ -1,6 +1,6 @@
 # JSP_ShoppingCart
 
-目的: 我喜歡看NBA ，於是我想做購物車網頁版，有關NBA 相關商品
+目的: 我喜歡看NBA ，於是我想做購物車網頁版，有關NBA相關商品
 
 功能: <br/>
 • 登入畫面的log是依照NBA的Lebron-James設計的<br/>
